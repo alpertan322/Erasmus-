@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ErasmusppspringbootApplication<erasmusppspringboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.erasmuspp.erasmusppspringboot.ErasmusppspringbootApplication",
+            "projectName": "erasmusppspringboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

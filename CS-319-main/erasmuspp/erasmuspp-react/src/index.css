@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#fixed {
+  width: 300px;
+  height: 100%;
+  max-height: 345px;
+  position: fixed;
+  background: #333;
+  border: 2px solid #333;
+}
+#menu {
+  background: pink;
+  line-height: 25px;
+  padding-left: 20px;
+}
+#scrollable {
+  position: absolute;
+  height: 110%;
+  /* width: 100%; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#scrollableMyApps{
+  height: 100%;
+  /* width: 100%; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#printImage{
+  width: 80px;
+  height: 80px;
+}
+
